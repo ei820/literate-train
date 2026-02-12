@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Law Exam Study Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Business Law Exam Study Hub</h1>
+      <p>Use this guide to review Chapter 1 terms, legal concepts, and case terminology.</p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Quick Facts</h2>
+        <ul>
+          <li><strong>Reading:</strong> Textbook pages 2–33</li>
+          <li><strong>Cases to brief:</strong> 0 for this chapter</li>
+          <li><strong>Tip:</strong> Focus on source of law and burden of proof comparisons.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <h2>Glossary</h2>
+          <input id="searchInput" type="text" placeholder="Search terms (e.g., stare decisis, plaintiff)" />
+        </div>
+        <div id="termGrid" class="term-grid"></div>
+      </section>
+
+      <section class="panel flashcards">
+        <h2>Flashcard Mode</h2>
+        <div id="flashcard" class="flashcard" tabindex="0" role="button" aria-label="Flashcard">
+          <div id="flashcardFront" class="face front"></div>
+          <div id="flashcardBack" class="face back"></div>
+        </div>
+        <div class="controls">
+          <button id="prevCard">Previous</button>
+          <button id="flipCard">Flip</button>
+          <button id="nextCard">Next</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Mini Quiz</h2>
+        <p id="quizPrompt"></p>
+        <div id="quizOptions" class="options"></div>
+        <p id="quizFeedback" class="feedback"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for exam review: Ch. 1 Law and Legal Reasoning</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
